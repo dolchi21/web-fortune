@@ -1,0 +1,23 @@
+{
+  "name": "web-fortune",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolchi21/web-fortune.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dolchi21/web-fortune/issues"
+  },
+  "homepage": "https://github.com/dolchi21/web-fortune#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
