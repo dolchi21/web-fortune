@@ -2,8 +2,10 @@ var express = require('express')
 var uuid = require('uuid')
 
 var fortune = require('./fortune')
+var state = require('./state')
 
-var UUID = uuid.v4()
+state.set('uuid', uuid.v4())
+state.set('startedAt', new Date())
 
 var app = express()
 
@@ -18,7 +20,8 @@ app.use((req, res, next) => {
 })
 
 app.use((req, res, next) => {
-    res.meta('uuid', UUID)
+    res.meta('startedAt', state.get('startedAt'))
+    res.meta('uuid', state.get('uuid'))
     next()
 })
 
