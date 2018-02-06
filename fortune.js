@@ -40,7 +40,8 @@ const simpsons = [
     'Hola Director Skinner, hola Super Nintendo Chalmers.',
     'El señor X le dice: Marge, si esto no enciende tu motor, dejo de llamarme Homero J. Simpson!',
     'Cama arriba, cama abajo... cama arriba, cama abajo',
-    'Yo se que oyes mis pensamientos muchacho. Ñam ñam ñam...'
+    'Yo se que oyes mis pensamientos muchacho. Ñam ñam ñam...',
+    'Ned, ¿has considerado alguna de las otras religiones? Todas son más o menos lo mismo.'
 ]
 
 var messages = [].concat(simpsons)
